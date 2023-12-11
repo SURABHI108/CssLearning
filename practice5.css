@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a
+{
+    text-decoration: none;
+    color: azure;
+    margin-right: 50px;
+    justify-items: space-evenly;
+}
+nav{
+    background-color: aqua;
+    margin: 50px;
+    padding: 50px;
+}
+.box{
+    width:50px;
+    height:50px;
+    background-color: green;
+    border-radius: 50%;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+    display: inline-block;
+}
+.container{
+    border: 3px solid black;
+}
+#box5{
+    position: fixed;
+    right: 10px;
+}
+#box3{
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: aqua;
+}
